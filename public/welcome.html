@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're in | kitty.win</title>
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f1ede2">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23f1ede2'/%3E%3Cg fill='%2316140f'%3E%3Crect x='2' y='3' width='2' height='4'/%3E%3Crect x='12' y='3' width='2' height='4'/%3E%3Crect x='2' y='6' width='12' height='8'/%3E%3C/g%3E%3Cg fill='%23f1ede2'%3E%3Crect x='5' y='9' width='2' height='2'/%3E%3Crect x='9' y='9' width='2' height='2'/%3E%3Crect x='7' y='12' width='2' height='1'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+
+  <header class="brand">
+    <svg class="mark" width="20" height="20" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <rect x="2" y="3" width="2" height="4" fill="currentColor"></rect>
+      <rect x="12" y="3" width="2" height="4" fill="currentColor"></rect>
+      <rect x="2" y="6" width="12" height="8" fill="currentColor"></rect>
+      <rect class="eye" x="5" y="9" width="2" height="2"></rect>
+      <rect class="eye" x="9" y="9" width="2" height="2"></rect>
+      <rect class="eye" x="7" y="12" width="2" height="1"></rect>
+    </svg>
+    <span class="wordmark">kitty.win</span>
+  </header>
+
+  <main class="card">
+    <p class="eyebrow">Account</p>
+    <h1>You're in.</h1>
+    <p class="sub">Signed in as</p>
+
+    <div class="session">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="session-email" id="email">...</span>
+    </div>
+
+    <div class="stack">
+      <button class="btn" id="signout" type="button">Sign out</button>
+    </div>
+  </main>
+
+</div>
+<script src="/welcome.js" defer></script>
+</body>
+</html>
